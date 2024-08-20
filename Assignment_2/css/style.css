@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header */
+#header-1{
+    position: sticky; top: 0;
+    /* top: 50px; */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 250px;
+}
+.button{
+    width: 150px;
+    height: 35px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.button1{
+    width: 150px;
+    height: 35px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.button1:hover{
+    background-image: linear-gradient(to right, #FEAC5E 0%, #C779D0  51%);
+    color: black;
+}
+
+
+/* 1st section */ 
+
+.img1{
+    display: flex;
+    position: relative;
+    left: 50px;
+}
+.mainline{
+    font-size: xx-large;
+    position: absolute;
+    top: -200px;
+}
+#section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 auto;
+    margin: 0px 250px;
+    /* padding-top: 100px; */
+    align-items: center;
+    position: relative;
+    right: 50px;
+}
+.sec-2{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.quote{
+    font-size: 20px;
+    width: 55%;
+}
+.states{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    margin: 30px;
+}
+.mar{
+    margin: 50% 0px;
+}
+.p1{
+    font-size: 35px;
+    margin-bottom: 0%;
+}
+.p2{
+    margin-top: 0%;
+}
+
+/* 2nd section */
+
+#div-2{
+    background-color: #201E43;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 290px;
+    padding: 0px 110px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -200px;
+}
+#img2{
+    position: relative;
+    top: -10px;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* footer */
+#footer{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 250px;
+    align-items: baseline;
+    flex: 3 0 auto;
+    position: relative;
+    bottom: -300px;
+}
+#social{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* last div */
+
+#footer-1{
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 0px 150px;
+    border-radius: 20px;
+}
